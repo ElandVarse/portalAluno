@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-left: 260px;
+}
+
+span{
+    font-weight: 700;
+    color: #008000aa;
+}

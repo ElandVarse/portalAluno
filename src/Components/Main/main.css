@@ -1,0 +1,50 @@
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.informacoesEstudante{
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(55, 55, 61);
+    overflow-x: hidden;
+    padding: 20px 15px;
+    box-shadow: 4px 0 8px #000000aa;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.topo h2{
+    color: white;
+    font-weight: 700;
+    font-size: 14pt;
+    padding-top:10px
+}
+
+.centro{
+    color:white;
+    font-size: 14pt;
+}
+
+.centro p{
+    padding-top: 15px;
+}
+
+.fim a{
+    padding-top: 15px;
+    display: grid;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: 700;
+    color: white;
+    transition: all .4s;
+}
+
+.fim a:hover{
+    color:black;
+    cursor: pointer;
+}
