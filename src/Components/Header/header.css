@@ -1,7 +1,3 @@
-header{
-    margin-left: 260px;
-}
-
 header h1{
     padding-top: 25px;
     font-size: 2.5em;
@@ -11,107 +7,39 @@ header h1{
 
 /*Menu*/
 
-ul{
+header ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     background-color: #f9f9f9;
     align-items: center;
 }
-li {
+header li {
     display: inline-block;
     font-family: 'Oxygen';
     font-weight: 700;
     padding: 10px;
     transition: all .4s ease-in-out;
+    border-right: 1px solid #00000033;
+    border-bottom: 1px solid #00000033;
+    color:#646cb3;
+    transition: all .4s ease-in-out;
 }
 
-li:hover{
-    background-color: #C9FFCF;
+header li:hover{
+    background-color: #646cb3;
+    color: #f9f9f9f9;
     cursor: pointer;
 }
- 
- /*header{
-    color: #000000dd;
-    padding: 15px;
+
+
+@media screen and (max-width: 667px){
+	header ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    header li{
+        border:none;
+    }
 }
-
-.abaixoDoTítulo{
-    display: flex;
-    justify-content: space-between;
-}
-
-.informacoesEstudante{
-    padding-right: 15px;
-}
-
-header h2{
-    font-size: 1.3em;
-    font-weight: 700;
-    padding-top: 5px;
-}
-
-.coef{
-    margin-top: 15px;
-}
-
-p{
-    padding-top: 5px;
-}
-
-/*---INSTRUÇÕES---
-
-.inst {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all .4s;
-}
-
-.instMore{
-    background-color: #ff0000aa;
-    padding: 20px 40px;
-    text-align: justify
-}
-
-.inst h3{
-    color:#ffffffee;
-    font-weight: bold;
-    text-align: center;
-} 
-
-.inst li{
-    padding-top: 10px;
-}
-
-.btnInst {
-    background-color:rgb(255, 255, 255);
-    border: 2px solid black;
-	border-radius: 30px;
-	color: black;
-    font-weight: 700;
-    margin-top: 20px;
-    padding: 15px;
-    box-shadow: 1px 3px 8px #00000088;
-}
-
-.hide{
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    margin-top: -50px;
-}
-
-
-    <h3>Instruções de Matrícula</h3>
-    <ul>
-        <li>Clique no botão avaliar e faça a avaliação institucional das disciplinas que cursou no semestre passado</li>
-        <li>Clique em "Solicitação de Disciplinas" e monte o horário que considera ideal para você. Fique atento às mensagens que o sistema mostra a cada escolha de disciplina</li>
-        <li>Ao finalizar a escolha clique no botão finalizar solicitação. Só assim a sua escolha será registrada.</li>
-        <li>Clique no botão Lista de Prioridades e monte uma lista de prioridade das disciplinas disponíveis para você. O menor número significa maior prioridade.</li>
-        <li>o dia indicado pelo Calendário Acadêmico do Campus será divulgado o resultado da alocação das disciplinas solicitadas.</li>
-    </ul>
-<button onClick={esconder} className='btnInst'>Ver Instruções</button>
-*/
-

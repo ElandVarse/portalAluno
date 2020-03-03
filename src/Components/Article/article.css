@@ -1,0 +1,81 @@
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px; 
+    padding: 20px 40px;
+    color: #f9f9f9dd;
+    background-color: #ff0000aa;
+    box-shadow: 3px 5px 8px #00000088;
+    margin-bottom: 40px;
+}
+
+.conteudo h3{
+    color: #f9f9f9;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.conteudo li{
+    font-weight: 500;
+    font-family: 'Oxygen';
+    padding: 20px 5px;
+}
+
+/*Botão e estilo do escondido*/
+
+.btn {
+    background-color:rgb(255, 255, 255);
+	border-radius: 4px;
+	color: #ff0000bb;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    box-shadow: 1px 3px 8px #00000055   ;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+.hide{
+    display: none;
+}
+
+/*--PAE--*/
+
+.pae{
+    border-top: 1px solid #00000033;
+    padding-top: 40px;
+}
+
+.pae h3{
+    text-align: center;
+    color: #f9f9f9;
+}
+
+.pae .texto{
+    margin-top: 25px;
+    text-align: justify;
+}
+
+.clique{
+    padding-top:20px;
+    text-align: center;
+}
+.clique a{
+    color: #f9f9f9;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all .3s;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 667px){
+    .conteudo{
+        height: 100%;
+        box-shadow: none;
+    }
+}

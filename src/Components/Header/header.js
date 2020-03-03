@@ -1,10 +1,6 @@
 import React from 'react';
 import './header.css'
 
-function esconder(){
-    document.querySelector(".instMore").classList.toggle("hide");
-}
-
 const Header = () => (
    <header>
        <nav>
@@ -14,6 +10,7 @@ const Header = () => (
                 <li>Solicitação de Disciplinas</li>
             </ul>
        </nav>
+       
         <h1>Portal do Aluno</h1>
     </header>
 );

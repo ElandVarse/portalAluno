@@ -17,6 +17,7 @@ body, html, #root{
     display: flex;
     flex-direction: column;
     background-color: #d7dbff;
+    margin-left: 260px;
 }
 
 .content{

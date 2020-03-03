@@ -2,11 +2,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    margin-left: 260px;
+    height: 40px;
+    width: 100%;
+    background-color: #0e0e3baa;
+    color: #f9f9f9;
 }
 
-span{
+footer a{
+    text-decoration: none;
     font-weight: 700;
-    color: #008000aa;
+    color: #f9f9f9;
 }
+
+

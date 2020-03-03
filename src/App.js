@@ -7,6 +7,7 @@ import Footer from './Components/Footer/footer.js'
 
 const App = () =>(
   <div className='App'>
+    <div class='sidebarMargin'></div>
     <Header />
     <Main />
     <div class='content'></div>

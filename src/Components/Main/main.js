@@ -1,23 +1,29 @@
 import React from 'react'
 import './main.css'
+import Article from '../Article/article.js'
 
 const Main = () => (
     <main>
-        <div class='informacoesEstudante'>
+        <div class='LeftSideBar'>
+
                 <div class='topo'>
                     <h2>Matrícula: 112254 </h2>
                     <h2>Nome: John Wick </h2>
-                    <h2>Curso: A </h2>
-                </div>    
+                    <h2>Curso: Matrix</h2>
+                </div>  
+
                 <div class='centro'>
-                    <p>Coeficiente de Rendimento: 2 </p>
-                    <p>Coeficiente de Aproveitamento: 3 </p>
+                    <p>Rendimento: 100,0</p>
+                    <p>Aproveitamento: 100,0</p>
                 </div>
+
                 <div class='fim'>
                     <a>Boletim</a>
                     <a>Histórico</a>
                 </div>
             </div>
+            
+        <Article />
     </main>
 )
 

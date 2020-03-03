@@ -3,48 +3,66 @@ main{
     justify-content: space-around;
 }
 
-.informacoesEstudante{
+/*--BarraEsquerda--*/
+
+.LeftSideBar{
     height: 100%;
     width: 260px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(55, 55, 61);
-    overflow-x: hidden;
+    background-color: #37373d;
     padding: 20px 15px;
-    box-shadow: 4px 0 8px #000000aa;
+    box-shadow: 4px 0 8px #00000055;
     display: grid;
-    grid-template-rows: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    align-items: center;
+}
+
+/*--Textos dentro da Barra--*/
+
+.topo{
+    background-color: #3f3fa755;
+    box-shadow: 3px 5px 8px #222222;
 }
 
 .topo h2{
-    color: white;
+    padding: 15px 0px;
+    color: #f9f9f9;
+    text-shadow: 2px 1px black;
     font-weight: 700;
     font-size: 14pt;
-    padding-top:10px
-}
-
-.centro{
-    color:white;
-    font-size: 14pt;
+    padding: 10px 15px;
 }
 
 .centro p{
-    padding-top: 15px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    color:white;
+    font-size: 14pt;
+    text-shadow: 1px 1px black;
 }
 
 .fim a{
-    padding-top: 15px;
     display: grid;
+    margin-top: 5px;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px #161616;
+    background-color: #ff000088;
+    color: #f9f9f9;
+    text-shadow: 1px 1px black;
     text-decoration: none;
+    text-align: center;
     font-size: 14pt;
     font-weight: 700;
-    color: white;
+    align-items: center;
     transition: all .4s;
 }
 
 .fim a:hover{
-    color:black;
+    transform: scale(1.05);
     cursor: pointer;
 }
