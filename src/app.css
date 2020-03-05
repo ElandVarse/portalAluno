@@ -20,6 +20,6 @@ body, html, #root{
     margin-left: 260px;
 }
 
-.content{
+main{
     flex:1;
 }

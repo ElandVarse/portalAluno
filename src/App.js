@@ -10,7 +10,6 @@ const App = () =>(
     <div class='sidebarMargin'></div>
     <Header />
     <Main />
-    <div class='content'></div>
     <Footer />
   </div>
   )
