@@ -1,7 +1,6 @@
 header h1{
-    padding-top: 25px;
+    padding-top: 10px;
     font-size: 2.5em;
-    margin-bottom: 5%;
     text-align: center;
 }
 
@@ -13,9 +12,10 @@ header ul{
     text-align: center;
     background-color: #f9f9f9;
     align-items: center;
+    list-style: none;
 }
+
 header li {
-    display: inline-block;
     font-family: 'Oxygen';
     font-weight: 700;
     padding: 10px;
@@ -24,6 +24,7 @@ header li {
     border-bottom: 1px solid #00000033;
     color:#646cb3;
     transition: all .4s ease-in-out;
+    height: 100%;
 }
 
 header li:hover{
@@ -35,9 +36,7 @@ header li:hover{
 
 @media screen and (max-width: 667px){
 	header ul{
-        display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
     header li{
         border:none;

@@ -6,6 +6,7 @@ footer{
     width: 100%;
     background-color: #0e0e3baa;
     color: #f9f9f9;
+    margin-top: 20px;
 }
 
 footer a{
@@ -13,5 +14,3 @@ footer a{
     font-weight: 700;
     color: #f9f9f9;
 }
-
-

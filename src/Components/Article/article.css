@@ -7,12 +7,13 @@
     color: #f9f9f9dd;
     background-color: #ff0000aa;
     box-shadow: 3px 5px 8px #00000088;
+    margin: 10px;
 }
 
 .conteudo h3{
     color: #f9f9f9;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .conteudo li{
@@ -46,8 +47,8 @@
 /*--PAE--*/
 
 .pae{
-    border-top: 1px solid #00000033;
-    padding-top: 40px;
+    border-bottom: 1px solid #00000033;
+    padding-bottom: 40px;
 }
 
 .pae h3{
