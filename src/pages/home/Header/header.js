@@ -1,6 +1,10 @@
 import React from 'react';
 import './header.css'
 
+import { Link, useHistory } from 'react-router-dom'
+import {FiLogOut} from 'react-icons/fi'
+
+
 const Header = () => (
    <header>
        <nav>
@@ -9,9 +13,12 @@ const Header = () => (
                 <li>Comprovante de Matrícula</li>
                 <li>Solicitação de Disciplinas</li>
             </ul>
+
+            <Link className='link' to="/">
+                <FiLogOut size={16} color="#E02041"/>
+                Sair
+            </Link>
        </nav>
-       
-        <h1>Portal do Aluno</h1>
     </header>
 );
 

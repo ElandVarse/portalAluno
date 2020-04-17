@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+    
+}
+
+body, html, #root{
+    height:100vh;
+}
+
+body{
+    font: 700 16px 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea{
+    font: 400 18px 'Roboto', sans-serif;
+}
+
+.home{
+    height: 100%;
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.link{
+    display:flex;
+    align-items: center;
+
+    margin-top: 10px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.link svg{
+    margin-right: 8px
+}
+
+.link:hover{
+    filter: opacity(.8);
+}

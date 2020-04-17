@@ -1,12 +1,17 @@
 main{
+    height: 100%;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 /*--BarraEsquerda--*/
+
+main h1{
+    font-size: 48px;
+    color: #396038dd;
+}
 
 .LeftSideBar{
     height: 100%;
@@ -17,10 +22,10 @@ main{
     left: 0;
     background-color: #37373d;
     padding: 20px 15px;
-    box-shadow: 4px 0 8px #00000055;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr; 
     align-items: center;
+    border-right: 1px black;
 }
 
 /*--Textos dentro da Barra--*/
@@ -33,7 +38,7 @@ main{
 .topo h2{
     padding: 15px 0px;
     color: #f9f9f9;
-    text-shadow: 2px 1px black;
+    text-shadow: 2px 1px #000000;
     font-weight: 700;
     font-size: 14pt;
     padding: 10px 15px;

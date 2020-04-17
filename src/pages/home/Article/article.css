@@ -5,12 +5,13 @@
     max-width: 800px; 
     padding: 20px 40px;
     color: #f9f9f9dd;
-    background-color: #ff0000aa;
+    background-color: #37373d;
     box-shadow: 3px 5px 8px #00000088;
     margin: 10px;
 }
 
 .conteudo h3{
+    font-size: 26px;
     color: #f9f9f9;
     font-weight: 700;
     margin: 20px 0;
@@ -18,26 +19,28 @@
 
 .conteudo li{
     font-weight: 500;
-    font-family: 'Oxygen';
     padding: 20px 5px;
 }
 
 /*Botão e estilo do escondido*/
 
 .btn {
-    background-color:rgb(255, 255, 255);
-	border-radius: 4px;
-	color: #ff0000bb;
-    font-weight: 700;
-    margin-bottom: 40px;
-    padding: 10px 15px;
-    box-shadow: 1px 3px 8px #00000055   ;
+    width: 120px;
+	color: #f9f9f9dd;
+    font-weight: bolder;
+    margin-bottom: 10px;
     transition: all .4s ease-in-out;
+    background: none;
+    border: 2px solid #f9f9f9dd;
+    border-radius: 4px;
+    padding: 10px;
+    cursor:pointer;
+    transition: all .2s;
 }
 
 .btn:hover{
-    transform: scale(1.05);
-    cursor:pointer;
+    background: #f9f9f9;
+    color: #37373d;
 }
 
 .hide{
@@ -64,7 +67,9 @@
 .clique{
     padding-top:20px;
     text-align: center;
+    font-size: 18px;
 }
+
 .clique a{
     color: #f9f9f9;
     text-decoration: none;
