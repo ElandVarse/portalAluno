@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portalAluno/static/css/main.1a32ccaf.chunk.css",
+    "main.js": "/portalAluno/static/js/main.1ce2ad9c.chunk.js",
+    "main.js.map": "/portalAluno/static/js/main.1ce2ad9c.chunk.js.map",
+    "runtime-main.js": "/portalAluno/static/js/runtime-main.fc9174ec.js",
+    "runtime-main.js.map": "/portalAluno/static/js/runtime-main.fc9174ec.js.map",
+    "static/js/2.c2b494f1.chunk.js": "/portalAluno/static/js/2.c2b494f1.chunk.js",
+    "static/js/2.c2b494f1.chunk.js.map": "/portalAluno/static/js/2.c2b494f1.chunk.js.map",
+    "index.html": "/portalAluno/index.html",
+    "precache-manifest.15a43719f90128a1c4f117e541baceb9.js": "/portalAluno/precache-manifest.15a43719f90128a1c4f117e541baceb9.js",
+    "service-worker.js": "/portalAluno/service-worker.js",
+    "static/css/main.1a32ccaf.chunk.css.map": "/portalAluno/static/css/main.1a32ccaf.chunk.css.map",
+    "static/js/2.c2b494f1.chunk.js.LICENSE.txt": "/portalAluno/static/js/2.c2b494f1.chunk.js.LICENSE.txt",
+    "static/media/undraw_fill.svg": "/portalAluno/static/media/undraw_fill.f91b538c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc9174ec.js",
+    "static/js/2.c2b494f1.chunk.js",
+    "static/css/main.1a32ccaf.chunk.css",
+    "static/js/main.1ce2ad9c.chunk.js"
+  ]
+}
